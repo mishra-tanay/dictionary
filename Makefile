@@ -8,7 +8,7 @@ filereader.o: filereader.cpp filereader.h
 	g++ -c filereader.cpp
 
 dictionary.o: dictionary.cpp dictionary.h
-        g++ -c dictionary.cpp
+	g++ -c dictionary.cpp
 
 clean:
 	rm *.o text-editor
